@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>どうあがいても吉夢</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>ようこそ！「どうあがいても吉夢」へ</h1>
+    <form id="dreamForm">
+        <label for="dream">夢の内容を入力してください:</label>
+        <textarea id="dream" name="dream" rows="4" cols="50"></textarea>
+        <br>
+        <button type="button" onclick="analyzeDream()">診断する</button>
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
